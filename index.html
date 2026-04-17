@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINISO INDIA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            margin: 15px 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 23%;
+            background-color: rgb(210, 39, 39);
+            color: white;
+        }
+
+        .footer-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px;
+            background: #f5f5f5;
+        }
+
+        .footer-col {
+            width: 23%;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        .icon {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .footer-col a {
+            text-decoration: none;
+            color: black;
+        }
+        .small-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            flex: 1;
+            width: 52%;
+            margin: 10px;
+        }
+        .small-grid .card {
+            width: 100%;  /* override the 23% from .card */
+        }
+
+        .small-grid .card img {
+            width: 100%;
+            display: block;
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="text-align: center; background-color: rgb(210, 39, 39); color: white; padding: 10px;">
+            <p>ANNOUNCEMENTS</p>
+        </div> 
+    </header>
+    
+    <nav>
+        <div><img src="logo.png" alt="MINISO Logo" width="30"></div>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Our Blogs</a>
+            <a href="#">Store Locator</a>
+            <a href="#">About MINISO</a>
+            <a href="#">Documents</a>
+            <a href="#">Contact Us</a>
+        </div>   
+    </nav>
+
+    <div>
+        <img src="hero.png" alt="Hero Banner" >
+    </div>
+    <hr>
+    <section>
+        <h2>TOP CATEGORIES</h2>
+        <div class="row">
+            <div class="card">
+                <img src="cat1.png" alt="Category 1" width="305">
+                <br>BAGS AND ACCESSORIES</div>
+            <div class="card">
+                <img src="cat2.png" alt="Category 2" width="305">
+                <br>DAILY LIFE PRODUCTS</div>
+            <div class="card">
+                <img src="cat3.png" alt="Category 3" width="305">
+                <br>DIGITAL AND ELECTRONICS</div>
+            <div class="card">
+                <img src="cat4.png" alt="Category 4" width="305">
+                <br>FASHION ACCESSORIES</div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2>NEW ARRIVALS</h2>
+        <div class="row">
+            <div class="card">
+                <img src="arriv1.png" alt="Arrival 1" width="302">
+                <br>SUSHI KITTEN PLUSH TOY</div>
+            <div class="card">
+                <img src="arriv2.png" alt="Arrival 2" width="302">
+                <br>SUSHI KITTEN PLUSH TOY</div>
+            <div class="card">
+                <img src="arriv3.png" alt="Arrival 3" width="302">
+                <br>SUSHI KITTEN PLUSH TOY</div>
+            <div class="card">
+                <img src="arriv4.png" alt="Arrival 4" width="302">
+                <br>SUSHI KITTEN PLUSH TOY</div>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h2>TOP SELLERS</h2>
+
+        <div class="row">
+            <div class="card" style="width: 48%; height: 48%; margin: 10px;">
+                <img src="seller1.png" alt="Makeup Brush">
+                <br>3-IN-1 MAKEUP BRUSH
+            </div>
+
+            <div class="small-grid">
+                <div class="card">
+                    <img src="seller2.png" alt="Eye Masks">
+                    <br>EYE MASKS
+                </div>
+                <div class="card">
+                    <img src="seller3.png" alt="Scented Candles">
+                    <br>SCENTED CANDLES
+                </div>
+                <div class="card">
+                    <img src="seller4.png" alt="Cosmetics">
+                    <br>COSMETICS
+                </div>
+                <div class="card">
+                    <img src="seller5.png" alt="Sippers">
+                    <br>SIPPERS
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <hr>
+    <section>
+        <h2 >About MINISO</h2>
+        <p>We're here to help today's youth discover affordable little joys. 
+            <br> MINISO is a international product retailer, offering high quality household goods, cosmetics and food at affordable prices.</p>
+    </section>
+    <hr>
+    <div>
+        <img src="video.png" alt="Video Placeholder">
+    </div>
+    <hr>
+
+    <section>
+        <div class="row">
+            <div style="width:30%;">
+                <h2>THE NEWSLETTER</h2>
+                <p><b>Get the latest news & updates from Miniso</b></p>
+                <input type="email" placeholder="Enter email"><br><br>
+                <button>Submit</button>
+            </div>
+
+            <div style="width:70%;">
+                <h2>WHAT CUSTOMER SAYS</h2>
+                <img src="avatar.png" width="100" alt="avatar icon"><br>
+                <h3>SHIVANI</h3>
+                <p>I am always thrilled to shop at MINISO. Quality products, cute designs and great prices!</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <h2>LATEST FROM BLOGS</h2>
+        <div class="row">
+
+            <div class="card" style="background-color: white; color: black;">
+                <img src="blog1.png" alt="Miniso">
+                <h3>Get To Know About Miniso India Amazing Team</h3>
+                <p>Meet our two Superheroes of Operations Team, Operation Supervisors</p>
+                <p>They have shown some immense growth and hard work since the time they have been with Miniso.</p>
+                <p>Let us take you through their experience one by one.</p>
+            </div>
+
+            <div class="card" style="background-color: white; color: black;">
+                <img src="blog2.png" alt="Marvel Collaboration">
+                <h3>MINISO Cooperates With Marvel Studios, Releasing 2000 Superheroes
+                    Peripheral Products</h3>
+                <p>The world's well-known retail brand MINISO officially announced the
+                    cooperation with globally renowned top IP Marvel to develop a series
+                    of peripheral products, which will be put on sale in over 100 countries.</p>
+                <p>The MINISO x MARVEL products exhibition area was set up at the new
+                    product release meeting.</p>
+            </div>
+
+            <div class="card" style="background-color: white; color: black;">
+                <img src="blog3.png" alt="Design Award">
+                <h3>Miniso Won Big At The German IF Design Awards 2019</h3>
+                <p>The German iF Design awards 2019 recently bestowed MINISO, the world's
+                    most trusted designer lifestyle brand, for their creative innovation
+                    in three product categories.</p>
+                <p>MINISO's Kendama Gel Pen, Round Foldable Lamp and U-Fan stood out...</p>
+            </div>
+
+            <div class="card" style="background-color: white; color: black;">
+                <img src="blog4.png" alt="Spring Clean">
+                <h3>It's Time To Spring Clean Your Office Desk And Boost Productivity!</h3>
+                <p>Spring season is just around the corner and we are about to gear up
+                    for brighter mornings, lighter evening and a whole new lease of motivation!</p>
+                <p>There's no better time of the year to have a good clean - be it your office, wardrobe, kitchen or bedroom...</p>
+            </div>
+
+        </div>
+    </section>
+
+    <hr>
+    <section>
+        <div class="footer-row">
+
+            <div class="footer-col">
+                <img src="logo.png" alt="Miniso Logo" class="logo"><br><br>
+
+                <img src="fb.png" class="icon" alt="facebook icon">
+                <img src="twitter.png" class="icon" alt="twitter icon">
+                <img src="insta.png" class="icon" alt="instagram icon">
+                <img src="yt.png" class="icon" alt="youtube icon">
+            </div>
+
+            <div class="footer-col">
+                <h3>MINISO Products</h3>
+
+                <p><a href="#">Bags And Accessories</a></p>
+                <p><a href="#">Daily Life Products</a></p>
+                <p><a href="#">December Offers</a></p>
+                <p><a href="#">Digital And Electronics</a></p>
+                <p><a href="#">Fashion Accessories</a></p>
+                <p><a href="#">Health And Beauty</a></p>
+                <p><a href="#">Household Items</a></p>
+                <p><a href="#">Toy Series</a></p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Career</a></p>
+                <p><a href="#">Our Blogs</a></p>
+                <p><a href="#">Store Locator</a></p>
+                <p><a href="#">Contact Us</a></p>
+            </div>
+
+            <div class="footer-col">
+                <h3>About MINISO</h3>
+
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">E-Waste Management</a></p>
+                <p><a href="#">Exchange Policy</a></p>
+                <p><a href="#">Privacy Policy</a></p>
+                <p><a href="#">Sitemap</a></p>
+            </div>
+
+        </div>
+        <p>© 2018 Miniso India, All Rights Reserved | Designed By Delta Web Services</p>
+    </section>
+</body>
+</html>
